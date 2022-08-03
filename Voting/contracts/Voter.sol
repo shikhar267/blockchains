@@ -3,7 +3,7 @@ pragma solidity ^0.4.0;
 pragma experimental ABIEncoderV2;
 
 //["coffee","tea"]
-// contract Voter {
+ contract Voter {
     uint[] public votes;
     string[] public  options;
     constructor(string[] _options) public {
